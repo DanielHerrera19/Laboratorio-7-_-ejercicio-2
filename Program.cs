@@ -10,14 +10,15 @@ namespace Laboratorio_7___ejercicio_2
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 1000; i++)
+            int i = 1;
+            do
             {
                 if (i % 3 == 0)
-                {
-                    Console.WriteLine("Divisor de Daniel Fernando: " + i);
+                {        
+                Console.WriteLine("Divisor de Daniel Fernando: " + i);
                 }
-            }
-
+                i++;
+            } while (i <= 1000);
             Console.ReadKey();
         }
     }
